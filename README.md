@@ -26,4 +26,3 @@ This repository is a quick template repository that I personally use.
 
 This repository is licensed under the Apache 2.0 license
 which can be found in the [LICENSE](./LICENSE) file.
-
