@@ -25,7 +25,7 @@ jobs:
     - name: Setup Python 3.10
       uses: actions/setup-python@v2
       with:
-        python-version: 3.10
+        python-version: "3.10"
     - name: Run pre-commit
       uses: pre-commit/action@v2.0.3
 
@@ -35,7 +35,7 @@ jobs:
     timeout-minutes: 5
     steps:
     - name: Checkout
-      uses: actions/echeckout@v2.4.0
+      uses: actions/checkout@v2.4.0
     - name: Setup Python 3.10
       uses: actions/setup-python@v2
       with:
@@ -49,4 +49,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements/local.txt
     - name: Test
-      run: pytest
+      run: pytest tests/

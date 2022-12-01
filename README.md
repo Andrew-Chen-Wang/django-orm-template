@@ -3,6 +3,11 @@
 A GitHub template to quickly get a Python project
 that needs an awesome ORM up and running.
 
+Original intended usage is to script from main.py
+and call management commands through manage.py
+
+To run tests, run `pytest tests/`
+
 Includes support for:
 - Either SQLite or PostgreSQL
 - Docker
