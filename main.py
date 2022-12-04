@@ -14,7 +14,7 @@ sys.dont_write_bytecode = True
 import os
 
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.base")
 import django
 
 
