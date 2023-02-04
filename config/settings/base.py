@@ -17,7 +17,6 @@ DATABASES = {
 }
 
 
-
 # To connect to an existing postgres database, first:
 # pip install psycopg2
 # then overwrite the settings above with:
